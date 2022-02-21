@@ -1,0 +1,84 @@
+:root {
+    --orange: #cc6300;
+    --gray: #e8edf1;
+    --green: #28a745;
+    ;
+}
+
+.bg-warning {
+    background-color: var(--orange) !important;
+}
+
+.text-warning {
+    color: var(--orange) !important;
+}
+
+a.text-warning:hover,
+a.text-warning:focus {
+    color: var(--orange) !important;
+}
+
+.bg-success {
+    background-color: var(--green) !important;
+}
+
+a.bg-success:hover,
+a.bg-success:focus,
+button.bg-success:hover,
+button.bg-success:focus {
+    background-color: var(--green) !important;
+}
+
+.btn-success {
+    color: #fff;
+    border-color: var(--green);
+    background-color: var(--green);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+.btn-success:hover {
+    color: #fff;
+    border-color: var(--green);
+    background-color: var(--green);
+}
+
+.btn-success:focus,
+.btn-success.focus {
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08), 0 0 0 0 rgba(45, 206, 137, .5);
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+    color: #fff;
+    border-color: var(--green);
+    background-color: var(--green);
+}
+
+.ml-i {
+    margin-left: 6em;
+}
+
+.ml-i1 {
+    margin-left: 5em;
+}
+
+.ml-i11 {
+    margin-left: 5.5em;
+}
+
+.img-custom {
+    max-width: 200px;
+    object-fit: fill;
+    height: 100px;
+}
+
+.img-car {
+    max-width: 50%;
+    height: 50%;
+    object-fit: fill;
+}
+
+.badge-c-success {
+    color: #fff;
+    background-color: var(--green);
+}

@@ -1,0 +1,162 @@
+
+
+
+.x-carousel-img{
+
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-color: #525d6a;
+
+}
+
+.x-nav{
+  list-style: "-";
+}
+
+.x-nav-footer-text{
+ font-size: 12px;
+ padding-left: 6px;
+}
+
+@media (min-width: 992px) {
+    .x-form-control{
+        width:440px !important;
+    }
+  }
+  @media (min-width: 1200px) {
+    .x-form-control{
+        width: 600px !important;
+    }
+  }
+  @media (min-width: 1400px) {
+    .x-form-control{
+        width: 700px !important;
+    }
+  }
+
+  .x-text-copy{
+    font-size: 12px;
+  }
+
+
+
+  .x-text-fs1{
+    font-size: 10px;
+  }
+
+  .x-text-fs2{
+    font-size: 12px;
+  }
+  .x-text-fs3{
+    font-size: 14px;
+  }
+  .x-text-fs4{
+    font-size: 16px;
+  }
+  .x-text-fs5{
+    font-size: 18px;
+  }
+  .x-text-fs6{
+    font-size: 20px;
+  }
+  .x-text-fs7{
+    font-size: 22px;
+  }
+  .x-text-fs8{
+    font-size: 24px;
+  }
+  .x-text-1{
+    font-size: 26px;
+  }
+  .x-text-1{
+    font-size: 30px;
+  } 
+  
+
+  .x-card-bestseller-img{
+    height: 220px;
+    object-fit: cover;
+    background-color: #525d6a;
+  }
+
+  
+  .x-products-img{
+    height: 220px;
+    object-fit: cover;
+    background-color: #525d6a;
+  }
+
+
+  .x-btn-products{
+    border-color: #198754;
+    color: #000000;
+  }
+  .x-btn-products:hover {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754 !important;
+  }
+
+
+  .x-colproducts{
+    flex: 0 0 auto;
+    width: 16.6666666666666666%;
+  }
+
+
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  
+}
+
+.carousel-indicators .active{
+  background-color: #ffc107;
+
+}
+
+.x-colproducts-card:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+
+
+.x-name-banner{
+  position: absolute;
+  z-index: 4000;
+  top: 40%;
+  right: 32%;
+  font-size: 4rem !important;
+}
+
+.x-deco{
+  width: 110px;
+  height: 4px;
+  border-radius: 21px;
+}
+
+.x-auth-container{
+background-image: url('../img/auth.png');
+}
+
+.x-product-img{
+  width: 700px;
+  object-fit: cover;
+
+}
+
+.x-product-iframe{
+  width: 700px !important;
+  height: 400px !important;
+}
+
+.xanoumi-circle{
+  position: absolute;
+    bottom: 5px;
+    left: 92px;
+    width: 134px;
+    height: 50px;
+    background-color: #fff;
+}
